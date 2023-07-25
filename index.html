@@ -30,9 +30,46 @@
     
   </head>
   <body>
-    <header>
+    <header class="container mx-auto">
         <!-- Nav Bar Section -->
-        <nav></nav>
+        <nav>
+            <div class="navbar bg-white md:bg-[#F85559] lg:bg-[#F85559] text-white flex justify-around rounded-3xl my-5 py-2">
+                <div class="navbar-start hidden lg:flex md:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+
+
+                <div class="navbar-center">
+                  
+                  <div class="flex text-black lg:text-white md:text-white text-center">
+                    <img class="w-10" src="./images/logo.png" alt="">
+                     <a class="btn btn-ghost normal-case text-4xl font-bold">Fruit Burst</a>
+                  </div>
+                 
+                </div>
+                
+                <div class="navbar-end hidden lg:flex md:hidden">
+                    <input type="text" placeholder="Search here" class="input input-bordered w-full max-w-xs" />
+                    <img class="relative right-10" width="20" height="20" src="https://img.icons8.com/ios/50/search--v1.png" alt="search--v1"/>
+                </div>
+                <div class="dropdown">
+                    <label tabindex="0" class="btn  md:hidden lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#F85559] rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+              </div>
+        </nav>
 
         <!-- Banner section -->
         <section></section>
